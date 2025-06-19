@@ -1,0 +1,67 @@
+{
+  "name": "calculation_analysis",
+  "description": "Generate a detailed mathematical analysis report with explanations and insights",
+  "template": "# 📊 Mathematical Analysis Report\n\n## Calculation Summary\n{calculation_result}\n\n## Detailed Analysis\n\n### 🔢 Expression Breakdown\n**Original Expression:** `{expression}`\n{expression_analysis}\n\n### 📈 Mathematical Insights\n{mathematical_insights}\n\n### 🎯 Result Interpretation\n{result_interpretation}\n\n### 📝 Step-by-Step Solution\n{step_by_step}\n\n## Additional Information\n\n### 🔍 Number Properties\n{number_properties}\n\n### 📐 Related Concepts\n{related_concepts}\n\n### 💡 Practical Applications\n{practical_applications}\n\n### ⚡ Alternative Approaches\n{alternative_methods}\n\n## Verification\n{verification_notes}\n\n---\n*Mathematical computation performed by MCP calculator tool*\n*Analysis generated: {timestamp}*",
+  "arguments": [
+    {
+      "name": "expression",
+      "description": "The mathematical expression that was calculated",
+      "required": true
+    },
+    {
+      "name": "calculation_result",
+      "description": "Raw result from the calculator tool",
+      "required": true
+    },
+    {
+      "name": "expression_analysis",
+      "description": "Breakdown and analysis of the mathematical expression components",
+      "required": false
+    },
+    {
+      "name": "mathematical_insights",
+      "description": "Mathematical insights about the calculation type and methodology",
+      "required": false
+    },
+    {
+      "name": "result_interpretation",
+      "description": "Interpretation and meaning of the calculated result",
+      "required": false
+    },
+    {
+      "name": "step_by_step",
+      "description": "Step-by-step breakdown of how the calculation was performed",
+      "required": false
+    },
+    {
+      "name": "number_properties",
+      "description": "Properties of the numbers involved (prime, even/odd, etc.)",
+      "required": false
+    },
+    {
+      "name": "related_concepts",
+      "description": "Related mathematical concepts and principles",
+      "required": false
+    },
+    {
+      "name": "practical_applications",
+      "description": "Real-world applications where this type of calculation is useful",
+      "required": false
+    },
+    {
+      "name": "alternative_methods",
+      "description": "Alternative ways to solve or approach the problem",
+      "required": false
+    },
+    {
+      "name": "verification_notes",
+      "description": "Notes on accuracy and verification of the result",
+      "required": false
+    },
+    {
+      "name": "timestamp",
+      "description": "When the analysis was generated",
+      "required": false
+    }
+  ]
+}

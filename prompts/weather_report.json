@@ -1,0 +1,62 @@
+{
+  "name": "weather_report",
+  "description": "Generate a comprehensive weather report with current conditions and recommendations",
+  "template": "# 🌤️ Weather Report for {location}\n\n## Current Conditions\n{weather_data}\n\n## Detailed Analysis\n\n### 🌡️ Temperature Assessment\n{temperature_analysis}\n\n### 🌤️ Weather Summary\n{weather_summary}\n\n### 💨 Wind & Atmosphere\n{atmospheric_conditions}\n\n## Practical Recommendations\n\n### 👕 Clothing Suggestions\n{clothing_advice}\n\n### 🚶 Activity Recommendations\n{activity_suggestions}\n\n### 🚗 Travel Conditions\n{travel_advice}\n\n### ⚠️ Weather Considerations\n{weather_warnings}\n\n## Comfort Index\n{comfort_rating}\n\n---\n*Weather data sourced from OpenWeatherMap via MCP weather tool*\n*Report generated: {timestamp}*",
+  "arguments": [
+    {
+      "name": "location",
+      "description": "City or location name for the weather report",
+      "required": true
+    },
+    {
+      "name": "weather_data",
+      "description": "Raw weather data from the weather tool",
+      "required": true
+    },
+    {
+      "name": "temperature_analysis",
+      "description": "Analysis of temperature conditions and feels-like assessment",
+      "required": false
+    },
+    {
+      "name": "weather_summary", 
+      "description": "Summary of current weather conditions and what they mean",
+      "required": false
+    },
+    {
+      "name": "atmospheric_conditions",
+      "description": "Analysis of humidity, pressure, and wind conditions",
+      "required": false
+    },
+    {
+      "name": "clothing_advice",
+      "description": "Specific clothing recommendations based on temperature and conditions",
+      "required": false
+    },
+    {
+      "name": "activity_suggestions",
+      "description": "Recommended activities suitable for current weather",
+      "required": false
+    },
+    {
+      "name": "travel_advice",
+      "description": "Travel and driving conditions assessment",
+      "required": false
+    },
+    {
+      "name": "weather_warnings",
+      "description": "Any weather-related cautions or considerations",
+      "required": false
+    },
+    {
+      "name": "comfort_rating",
+      "description": "Overall comfort assessment and rating for the weather",
+      "required": false
+    },
+    {
+      "name": "timestamp",
+      "description": "When the weather report was generated",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+mcp-ai
+openai
+python-dotenv
+aiohttp
+asyncio
+pydantic

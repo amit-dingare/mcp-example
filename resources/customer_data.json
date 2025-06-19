@@ -1,0 +1,292 @@
+{
+  "metadata": {
+    "generated_date": "2025-07-01",
+    "total_customers": 342,
+    "active_customers": 327,
+    "data_version": "v2.1",
+    "last_updated": "2025-06-30T23:59:59Z"
+  },
+  "summary": {
+    "total_revenue": "$2,847,500",
+    "average_customer_value": "$8,324",
+    "top_revenue_segment": "Enterprise",
+    "customer_retention_rate": "94.2%",
+    "churn_rate": "5.8%",
+    "net_promoter_score": 72
+  },
+  "segments": {
+    "enterprise": {
+      "count": 45,
+      "percentage": "13.2%",
+      "total_revenue": "$1,623,000",
+      "average_deal_size": "$36,067",
+      "retention_rate": "97.8%"
+    },
+    "mid_market": {
+      "count": 127,
+      "percentage": "37.1%",
+      "total_revenue": "$891,500",
+      "average_deal_size": "$7,020",
+      "retention_rate": "93.7%"
+    },
+    "small_business": {
+      "count": 170,
+      "percentage": "49.7%",
+      "total_revenue": "$333,000",
+      "average_deal_size": "$1,959",
+      "retention_rate": "91.2%"
+    }
+  },
+  "top_customers": [
+    {
+      "id": "CUST-001",
+      "name": "Global Tech Solutions Inc.",
+      "segment": "Enterprise",
+      "annual_revenue": "$156,000",
+      "contract_start": "2023-03-15",
+      "contract_end": "2026-03-14",
+      "health_score": 9.2,
+      "primary_contact": {
+        "name": "Jennifer Martinez",
+        "title": "CTO",
+        "email": "j.martinez@globaltechsol.com"
+      },
+      "products": ["Enterprise Platform", "AI Analytics", "Premium Support"],
+      "usage_metrics": {
+        "monthly_active_users": 450,
+        "api_calls_per_month": 2400000,
+        "storage_usage_gb": 1250
+      }
+    },
+    {
+      "id": "CUST-002", 
+      "name": "InnovateCorp",
+      "segment": "Enterprise",
+      "annual_revenue": "$134,500",
+      "contract_start": "2023-08-01",
+      "contract_end": "2025-07-31",
+      "health_score": 8.8,
+      "primary_contact": {
+        "name": "David Chen",
+        "title": "VP of Engineering",
+        "email": "david.chen@innovatecorp.com"
+      },
+      "products": ["Enterprise Platform", "Advanced Analytics", "Integration Suite"],
+      "usage_metrics": {
+        "monthly_active_users": 380,
+        "api_calls_per_month": 1980000,
+        "storage_usage_gb": 890
+      }
+    },
+    {
+      "id": "CUST-003",
+      "name": "FutureSoft Dynamics",
+      "segment": "Enterprise", 
+      "annual_revenue": "$128,900",
+      "contract_start": "2024-01-10",
+      "contract_end": "2027-01-09",
+      "health_score": 9.5,
+      "primary_contact": {
+        "name": "Sarah Thompson",
+        "title": "Director of Technology",
+        "email": "s.thompson@futuresoftdyn.com"
+      },
+      "products": ["Enterprise Platform", "AI Analytics", "Custom Development"],
+      "usage_metrics": {
+        "monthly_active_users": 520,
+        "api_calls_per_month": 2100000,
+        "storage_usage_gb": 1450
+      }
+    },
+    {
+      "id": "CUST-004",
+      "name": "DataFlow Systems",
+      "segment": "Mid-Market",
+      "annual_revenue": "$67,200",
+      "contract_start": "2023-11-20",
+      "contract_end": "2025-11-19",
+      "health_score": 8.4,
+      "primary_contact": {
+        "name": "Michael Rodriguez",
+        "title": "IT Manager",
+        "email": "m.rodriguez@dataflowsys.com"
+      },
+      "products": ["Professional Platform", "Standard Analytics"],
+      "usage_metrics": {
+        "monthly_active_users": 180,
+        "api_calls_per_month": 450000,
+        "storage_usage_gb": 320
+      }
+    },
+    {
+      "id": "CUST-005",
+      "name": "CloudVision Ltd",
+      "segment": "Mid-Market",
+      "annual_revenue": "$54,800",
+      "contract_start": "2024-02-15",
+      "contract_end": "2026-02-14",
+      "health_score": 9.1,
+      "primary_contact": {
+        "name": "Lisa Wang",
+        "title": "Product Manager",
+        "email": "lisa.wang@cloudvision.ltd"
+      },
+      "products": ["Professional Platform", "Advanced Analytics", "Mobile Access"],
+      "usage_metrics": {
+        "monthly_active_users": 145,
+        "api_calls_per_month": 380000,
+        "storage_usage_gb": 275
+      }
+    }
+  ],
+  "growth_metrics": {
+    "new_customers_this_month": 87,
+    "expansions": [
+      {
+        "customer_id": "CUST-001",
+        "expansion_type": "Additional Users",
+        "expansion_value": "$24,000",
+        "expansion_date": "2025-06-15"
+      },
+      {
+        "customer_id": "CUST-003",
+        "expansion_type": "Premium Features",
+        "expansion_value": "$18,500",
+        "expansion_date": "2025-06-22"
+      },
+      {
+        "customer_id": "CUST-007",
+        "expansion_type": "Additional Storage",
+        "expansion_value": "$8,200",
+        "expansion_date": "2025-06-28"
+      }
+    ],
+    "churn": [
+      {
+        "customer_id": "CUST-234",
+        "customer_name": "TechStart Inc",
+        "churn_date": "2025-06-10",
+        "churn_reason": "Budget constraints",
+        "annual_value_lost": "$12,000"
+      },
+      {
+        "customer_id": "CUST-198",
+        "customer_name": "QuickSolutions LLC", 
+        "churn_date": "2025-06-25",
+        "churn_reason": "Switched to competitor",
+        "annual_value_lost": "$8,500"
+      }
+    ]
+  },
+  "geographic_distribution": {
+    "north_america": {
+      "count": 198,
+      "percentage": "57.9%",
+      "revenue": "$1,648,125"
+    },
+    "europe": {
+      "count": 89,
+      "percentage": "26.0%",
+      "revenue": "$740,325"
+    },
+    "asia_pacific": {
+      "count": 42,
+      "percentage": "12.3%",
+      "revenue": "$350,100"
+    },
+    "other": {
+      "count": 13,
+      "percentage": "3.8%",
+      "revenue": "$108,950"
+    }
+  },
+  "industry_breakdown": {
+    "technology": {
+      "count": 145,
+      "percentage": "42.4%",
+      "revenue": "$1,207,125"
+    },
+    "financial_services": {
+      "count": 67,
+      "percentage": "19.6%",
+      "revenue": "$569,500"
+    },
+    "healthcare": {
+      "count": 54,
+      "percentage": "15.8%",
+      "revenue": "$458,900"
+    },
+    "manufacturing": {
+      "count": 38,
+      "percentage": "11.1%",
+      "revenue": "$323,000"
+    },
+    "retail": {
+      "count": 28,
+      "percentage": "8.2%",
+      "revenue": "$233,200"
+    },
+    "other": {
+      "count": 10,
+      "percentage": "2.9%",
+      "revenue": "$55,775"
+    }
+  },
+  "support_metrics": {
+    "total_tickets_this_month": 156,
+    "average_resolution_time_hours": 4.2,
+    "customer_satisfaction_score": 4.7,
+    "first_contact_resolution_rate": "78%",
+    "ticket_categories": {
+      "technical_issues": 45,
+      "feature_requests": 32,
+      "billing_questions": 28,
+      "training_support": 24,
+      "integration_help": 18,
+      "other": 9
+    }
+  },
+  "product_adoption": {
+    "core_platform": {
+      "adopters": 342,
+      "adoption_rate": "100%"
+    },
+    "advanced_analytics": {
+      "adopters": 234,
+      "adoption_rate": "68.4%"
+    },
+    "mobile_app": {
+      "adopters": 187,
+      "adoption_rate": "54.7%"
+    },
+    "api_integration": {
+      "adopters": 156,
+      "adoption_rate": "45.6%"
+    },
+    "ai_features": {
+      "adopters": 98,
+      "adoption_rate": "28.7%"
+    },
+    "premium_support": {
+      "adopters": 67,
+      "adoption_rate": "19.6%"
+    }
+  },
+  "upcoming_renewals": {
+    "next_30_days": {
+      "count": 23,
+      "total_value": "$167,800",
+      "risk_assessment": "Low"
+    },
+    "next_60_days": {
+      "count": 34,
+      "total_value": "$245,600",
+      "risk_assessment": "Medium"
+    },
+    "next_90_days": {
+      "count": 41,
+      "total_value": "$298,400", 
+      "risk_assessment": "Low"
+    }
+  }
+}

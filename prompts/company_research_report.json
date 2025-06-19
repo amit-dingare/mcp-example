@@ -1,0 +1,82 @@
+{
+  "name": "company_research_report",
+  "description": "Generate comprehensive company research reports from web search data",
+  "template": "# Company Research Report: {company_name}\n\n## Executive Summary\n**Company**: {company_name}\n**Industry**: {industry}\n**Research Date**: {research_date}\n**Analyst**: {analyst_name}\n\n---\n\n## Company Overview\n\n{company_description}\n\n**Key Details:**\n- Founded: {founded}\n- Headquarters: {headquarters}\n- Website: {website}\n\n---\n\n## Business Analysis\n\n### Key Facts\n{key_facts}\n\n### Market Position & Strategy\n{business_analysis}\n\n### Investment Considerations\n{investment_notes}\n\n### Risk Factors\n{risk_factors}\n\n---\n\n## Future Outlook\n\n{future_outlook}\n\n---\n\n## Research Notes\n\n**Search Query**: {search_query}\n**Data Quality**: {data_quality}\n\n---\n\n**Research Limitations**: This report is based on publicly available information and should be verified through official sources.\n\n*Report prepared by: {analyst_name} on {research_date}*",
+  "arguments": [
+    {
+      "name": "company_name",
+      "description": "Name of the company being researched",
+      "required": true
+    },
+    {
+      "name": "analyst_name", 
+      "description": "Name of the analyst conducting the research (use 'AI Research Assistant')",
+      "required": true
+    },
+    {
+      "name": "research_date",
+      "description": "Date when research was conducted (use '2025-06-18')",
+      "required": true
+    },
+    {
+      "name": "industry",
+      "description": "Industry sector of the company (extract from search results)",
+      "required": true
+    },
+    {
+      "name": "company_description",
+      "description": "Comprehensive company description from search data",
+      "required": true
+    },
+    {
+      "name": "founded",
+      "description": "Company founding information (use 'Information not available' if missing)",
+      "required": true
+    },
+    {
+      "name": "headquarters",
+      "description": "Company headquarters location (use 'Information not available' if missing)",
+      "required": true
+    },
+    {
+      "name": "website",
+      "description": "Company website URL (extract from search results or use 'Not available')",
+      "required": true
+    },
+    {
+      "name": "key_facts",
+      "description": "Key business facts and highlights from search data",
+      "required": true
+    },
+    {
+      "name": "business_analysis",
+      "description": "Business model, market position, and competitive analysis",
+      "required": true
+    },
+    {
+      "name": "investment_notes",
+      "description": "Investment considerations and potential (generate based on available data)",
+      "required": true
+    },
+    {
+      "name": "risk_factors",
+      "description": "Key risk factors and business challenges",
+      "required": true
+    },
+    {
+      "name": "future_outlook",
+      "description": "Future prospects and strategic outlook",
+      "required": true
+    },
+    {
+      "name": "search_query",
+      "description": "The search query used for this research",
+      "required": true
+    },
+    {
+      "name": "data_quality",
+      "description": "Assessment of data completeness and reliability",
+      "required": true
+    }
+  ]
+}
